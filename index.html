@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfredo Perry - Software Developer</title>
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">AP</a>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alfredo-perry-423520193" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:alfredoperry14@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Alfredo Perry</h1>
+            <p>iOS Developer specializing in creating elegant mobile experiences with Swift and SwiftUI. SCU Computer Science graduate passionate about building user-friendly solutions.</p>
+            <div class="buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Sudoku App -->
+                <a href = "https://apps.apple.com/us/app/playsudoku-io/id6738934774" style="text-decoration:none;">
+                    <div class="project-card">
+                        <h3 class="project-title">PlaySudoku.io</h3>
+                        <p class="project-description">iOS Sudoku game built with Swift and SwiftUI featuring puzzle generation, customizable themes, and timing functionality. Published on the App Store.</p>
+                        <div class="tags">
+                            <span class="tag">Swift</span>
+                            <span class="tag">SwiftUI</span>
+                            <span class="tag">MVVM</span>
+                            <span class="tag">Xcode</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Senior Design -->
+                <a href = "https://scholarcommons.scu.edu/cgi/viewcontent.cgi?article=1259&context=cseng_senior" style = "text-decoration: none;">
+                    <div class="project-card">
+                        <h3 class="project-title">AR Campus Tour</h3>
+                        <p class="project-description">Web-based augmented reality campus tour application using modern web technologies and AR.js library.</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">AR.js</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Stanford 193p -->
+                <a href = "" style = "text-decoration: none;">
+                    <div class="project-card">
+                        <h3 class="project-title">iOS Development Course</h3>
+                        <p class="project-description">Completed Stanford's 193p iOS Development Course, building multiple apps and mastering iOS development concepts.</p>
+                        <div class="tags">
+                            <span class="tag">Swift</span>
+                            <span class="tag">SwiftUI</span>
+                            <span class="tag">iOS</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3 class="skill-title">iOS Development</h3>
+                    <div class="tags">
+                        <span class="tag">Swift</span>
+                        <span class="tag">SwiftUI</span>
+                        <span class="tag">MVVM</span>
+                        <span class="tag">Xcode</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title">Web Development</h3>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title">Programming</h3>
+                    <div class="tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title">Tools & Others</h3>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-card">
+                <p>I'm currently open to iOS Developer positions. Feel free to reach out if you'd like to discuss potential opportunities.</p>
+                <div class="contact-info">
+                    <a href="mailto:alfredoperry14@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        alfredoperry14@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/alfredo-perry-423520193" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

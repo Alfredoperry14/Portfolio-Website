@@ -1,0 +1,4 @@
+<script>start("/Users/alfredoperry/Desktop/PersonalWebsite/Portfolio-Website/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow(".git",".git",1,448,"448 B",1736968657,"1/15/25, 11:17:37 AM");</script>
+<script>addRow(".gitattributes",".gitattributes",0,66,"66 B",1736968646,"1/15/25, 11:17:26 AM");</script>
