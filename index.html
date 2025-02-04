@@ -39,6 +39,31 @@
         </div>
     </section>
 
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <h3>Santa Clara University, School of Engineering</h3>
+                <p>Bachelor of Science in Computer Science and Engineering</p>
+                <p>Graduated June 2023, Santa Clara, CA</p>
+                <p class="coursework-title">Relevant Coursework:</p>
+                <p class="coursework">Advanced Programming, Abstract Data Types and Data Structures • Operating Systems • Object-Oriented Programming and Advanced Data Structures • Introduction to Database Systems • Theory of Algorithms • Software Engineering</p>
+            </div>
+            
+            <div class="education-card">
+                <h3>Vanderbilt University (Coursera)</h3>
+                <p>Prompt Engineering Certification (February 2025)</p>
+                <p><a href="https://coursera.org/verify/QU7I7R0319V7" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate</a></p>
+                <ul class="cert-details">
+                    <li>Completed specialized training in prompt engineering and AI interaction</li>
+                    <li>Developed skills in optimizing AI responses and leveraging advanced prompt patterns</li>
+                    <li>Mastered techniques for AI-driven content generation and automation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="section-container">
@@ -124,6 +149,14 @@
                         <span class="tag">Problem Solving</span>
                     </div>
                 </div>
+                <div class="skill-card">
+                    <h3 class="skill-title">AI & Prompt Engineering</h3>
+                    <div class="tags">
+                        <span class="tag">LLM Interaction</span>
+                        <span class="tag">Prompt Design</span>
+                        <span class="tag">AI Optimization</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -148,26 +181,6 @@
         </div>
     </section>
 
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Header scroll effect
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.nav');
-            if (window.scrollY > 50) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>

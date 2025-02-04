@@ -285,3 +285,74 @@ body {
         text-align: center;
     }
 }
+
+.education {
+    padding: 5rem 2rem;
+    background: var(--bg-color);
+}
+
+.education-card {
+    background: var(--card-bg);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: var(--transition);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.education-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.education-card p {
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+}
+
+.coursework-title {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.coursework {
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+.cert-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.cert-link:hover {
+    text-decoration: underline;
+}
+
+.cert-details {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.cert-details li {
+    position: relative;
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+}
+
+.cert-details li::before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: -1.5rem;
+}
