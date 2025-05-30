@@ -266,6 +266,31 @@ body {
     color: var(--primary-color);
 }
 
+/* Top Contact Button */
+.top-contact {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    padding: 0.5rem 0;
+    z-index: 1100;
+}
+
+.btn-black {
+    background: #000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn-black:hover {
+    background: #333;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero h1 {
